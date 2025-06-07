@@ -137,9 +137,22 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            I'm an aspiring developer building real projects to break into the tech world.
+            Eager to join a team where I can grow, learn, and make an impact.
           </p>
+        </div>
+
+        <div className="flex-2 mt-6">
+          <h3 className="text-xl font-semibold mb-2 text-zinc-800 dark:text-zinc-200">
+            Languages & Tools I use
+          </h3>
+          <ul className="list-disc list-inside text-zinc-600 dark:text-zinc-400">
+            <li>Java</li>
+            <li>Next.js</li>
+            <li>Kotlin</li>
+            <li>C</li>
+            <li>Python</li>
+          </ul>
         </div>
       </motion.section>
 
