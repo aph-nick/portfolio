@@ -34,7 +34,7 @@ export const PROJECTS: Project[] = [
       'Advanced components and templates to craft beautiful websites.',
     link: 'https://pro.motion-primitives.com/',
     image:
-      'public/project1test.jpg',
+      '/project1test.jpg',
     id: 'project1',
   },
   {
@@ -42,7 +42,7 @@ export const PROJECTS: Project[] = [
     description: 'UI kit to make beautiful, animated interfaces.',
     link: 'https://motion-primitives.com/',
     image:
-      'public/project2test.jpg',
+      '/project2test.jpg',
     id: 'project2',
   },
 ]
@@ -80,17 +80,9 @@ export const SOCIAL_LINKS: SocialLink[] = [
     link: 'https://github.com/ibelick',
   },
   {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
-  },
-  {
     label: 'LinkedIn',
     link: 'https://www.linkedin.com/in/ibelick',
   },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
-  },
-]
+];
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'w@kucharski.ovh'
