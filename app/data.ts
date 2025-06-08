@@ -42,8 +42,32 @@ export const PROJECTS: Project[] = [
     description: 'School Project consisting of a CLI Java application, that simulates a SmartHouse management system.',
     link: 'https://github.com/aph-nick/SmartHome',
     image:
-      'smarthome.jpg',
+      '/smarthome.jpg',
     id: 'project2',
+  },
+  {
+    name: 'SimpleGraphMaker',
+    description: 'Simple Java application that draws Mathematical graphs - made as a CS50x project',
+    link: 'https://github.com/me50/aph-nick',
+    image:
+      '/graph.jpg',
+    id: 'project3',
+  },
+  {
+    name: 'SimpleMail',
+    description: 'School Project consisting of a Java application, with Swing components that simulates an email client. ',
+    link: 'https://github.com/aph-nick/SmartHome',
+    image:
+      '/simplemail.jpg',
+    id: 'project4',
+  },
+  {
+    name: 'WorkoutTracker',
+    description: 'A Java build WorkoutTracking Application, under construction',
+    link: 'https://github.com/aph-nick/SmartHome',
+    image:
+      '/workouttracker.jpg',
+    id: 'project5',
   },
 ]
 
