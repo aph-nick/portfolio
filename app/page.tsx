@@ -42,9 +42,6 @@ const TRANSITION_SECTION = {
   duration: 0.3,
 }
 
-type ProjectVideoProps = {
-  src: string
-}
 
 function ProjectImageDialog({ src }: { src: string }) {
   return (
@@ -166,7 +163,25 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Selected Projects</h3>
+        <div className="mb-5 flex items-center justify-center gap-4">
+          <button
+            onClick={() => slider.current?.prev()}
+            className="rounded-full bg-white p-2 shadow dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
+            aria-label="Previous project"
+          >
+            <ChevronLeft className="h-5 w-5 text-zinc-800 dark:text-zinc-100" />
+          </button>
+
+          <h3 className="text-lg font-medium">Selected Projects</h3>
+
+          <button
+            onClick={() => slider.current?.next()}
+            className="rounded-full bg-white p-2 shadow dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
+            aria-label="Next project"
+          >
+            <ChevronRight className="h-5 w-5 text-zinc-800 dark:text-zinc-100" />
+          </button>
+        </div>
 
         <div>
           <div ref={sliderRef} className="keen-slider">
@@ -193,25 +208,9 @@ export default function Personal() {
               </div>
             ))}
           </div>
-
-          {/* Kontener na strzałki pod sliderem */}
-          <div className="mt-4 flex justify-between max-w-[calc(100%-4rem)] mx-auto px-2">
-            <button
-              onClick={() => slider.current?.prev()}
-              className="rounded-full bg-white p-2 shadow dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
-            >
-              <ChevronLeft className="h-5 w-5 text-zinc-800 dark:text-zinc-100" />
-            </button>
-
-            <button
-              onClick={() => slider.current?.next()}
-              className="rounded-full bg-white p-2 shadow dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
-            >
-              <ChevronRight className="h-5 w-5 text-zinc-800 dark:text-zinc-100" />
-            </button>
-          </div>
         </div>
       </motion.section>
+
 
       <motion.section
         variants={VARIANTS_SECTION}
@@ -255,7 +254,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Connect</h3>
+        <h3 className="mb-5 text-lg font-medium">Contact</h3>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
           Feel free to contact me at{' '}
           <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>

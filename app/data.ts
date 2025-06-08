@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'Aphelium',
     description:
-      'Revolutional community server for CS:GO. Made with custom and complete plugisn. Place where I first learned to develop, test and manage bigger Data.',
+      'Revolutional community server for CS:GO. Made with custom and complete SourceCode plugins. Place where I first learned to develop, test and manage bigger Data.',
     link: 'https://steamcommunity.com/groups/ApheliumCommunity',
     image:
       '/aphelium.jpg',
