@@ -196,13 +196,14 @@ export default function Personal() {
 
           <button
             onClick={() => slider.current?.prev()}
-            className="absolute left-0 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-2 shadow dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
+            className="absolute -left-6 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-3 shadow-lg ring-1 ring-zinc-300 dark:bg-zinc-900 dark:ring-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
           >
             <ChevronLeft className="h-5 w-5 text-zinc-800 dark:text-zinc-100" />
           </button>
+
           <button
             onClick={() => slider.current?.next()}
-            className="absolute right-0 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-2 shadow dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
+            className="absolute -right-6 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-3 shadow-lg ring-1 ring-zinc-300 dark:bg-zinc-900 dark:ring-zinc-700 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
           >
             <ChevronRight className="h-5 w-5 text-zinc-800 dark:text-zinc-100" />
           </button>

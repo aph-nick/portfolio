@@ -31,7 +31,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'Aphelium',
     description:
-      'Revolutional community server for CS:GO, place where I first learned to develop and manage bigger Data.',
+      'Revolutional community server for CS:GO. Made with custom and complete plugisn. Place where I first learned to develop, test and manage bigger Data.',
     link: 'https://steamcommunity.com/groups/ApheliumCommunity',
     image:
       '/aphelium.jpg',
@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
   },
   {
     name: 'SimpleMail',
-    description: 'School Project consisting of a Java application, with Swing components that simulates an email client. ',
+    description: 'School Project consisting of a Java application, with Swing components that simulates an email client. Under construction. ',
     link: 'https://github.com/aph-nick/SmartHome',
     image:
       '/simplemail.jpg',
