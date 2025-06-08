@@ -12,6 +12,10 @@ import {
 } from '@/components/ui/morphing-dialog'
 import Link from 'next/link'
 import { AnimatedBackground } from '@/components/ui/animated-background'
+import { useKeenSlider } from 'keen-slider/react'
+import 'keen-slider/keen-slider.min.css'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { useRef } from 'react'
 import {
   PROJECTS,
   WORK_EXPERIENCE,
@@ -119,6 +123,13 @@ function MagneticSocialLink({
 }
 
 export default function Personal() {
+  const [sliderRef, slider] = useKeenSlider<HTMLDivElement>({
+    loop: true,
+    slides: {
+      perView: 2,
+      spacing: 24,
+    },
+  })
   return (
     <motion.main
       className="space-y-24"
@@ -156,27 +167,45 @@ export default function Personal() {
         transition={TRANSITION_SECTION}
       >
         <h3 className="mb-5 text-lg font-medium">Selected Projects</h3>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-          {PROJECTS.map((project) => (
-            <div key={project.name} className="space-y-2">
-              <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
-                <ProjectImageDialog src={project.image} />
+
+        <div className="relative">
+          <div ref={sliderRef} className="keen-slider">
+            {PROJECTS.map((project) => (
+              <div key={project.name} className="keen-slider__slide px-2">
+                <div className="space-y-2">
+                  <div className="relative rounded-2xl bg-zinc-50/40 p-1 ring-1 ring-zinc-200/50 ring-inset dark:bg-zinc-950/40 dark:ring-zinc-800/50">
+                    <ProjectImageDialog src={project.image} />
+                  </div>
+                  <div className="px-1">
+                    <a
+                      className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
+                      href={project.link}
+                      target="_blank"
+                    >
+                      {project.name}
+                      <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
+                    </a>
+                    <p className="text-base text-zinc-600 dark:text-zinc-400">
+                      {project.description}
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div className="px-1">
-                <a
-                  className="font-base group relative inline-block font-[450] text-zinc-900 dark:text-zinc-50"
-                  href={project.link}
-                  target="_blank"
-                >
-                  {project.name}
-                  <span className="absolute bottom-0.5 left-0 block h-[1px] w-full max-w-0 bg-zinc-900 dark:bg-zinc-50 transition-all duration-200 group-hover:max-w-full"></span>
-                </a>
-                <p className="text-base text-zinc-600 dark:text-zinc-400">
-                  {project.description}
-                </p>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          <button
+            onClick={() => slider.current?.prev()}
+            className="absolute left-0 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-2 shadow dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
+          >
+            <ChevronLeft className="h-5 w-5 text-zinc-800 dark:text-zinc-100" />
+          </button>
+          <button
+            onClick={() => slider.current?.next()}
+            className="absolute right-0 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-2 shadow dark:bg-zinc-900 hover:bg-zinc-200 dark:hover:bg-zinc-700 transition"
+          >
+            <ChevronRight className="h-5 w-5 text-zinc-800 dark:text-zinc-100" />
+          </button>
         </div>
       </motion.section>
 
