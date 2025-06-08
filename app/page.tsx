@@ -152,7 +152,6 @@ export default function Personal() {
           <ul className="list-disc list-inside text-zinc-600 dark:text-zinc-400">
             <li>Java</li>
             <li>Next.js</li>
-            <li>Kotlin</li>
             <li>C</li>
             <li>Python</li>
           </ul>
