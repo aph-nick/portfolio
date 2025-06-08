@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'SimpleGraphMaker',
     description: 'Simple Java application that draws Mathematical graphs - made as a CS50x project',
-    link: 'https://github.com/me50/aph-nick',
+    link: 'https://github.com/aph-nick/SmartGraphMaker',
     image:
       '/graph.jpg',
     id: 'project3',
