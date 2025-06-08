@@ -25,7 +25,7 @@ export function Header() {
       <div className="flex items-center space-x-2 text-zinc-700 dark:text-zinc-400 text-sm font-medium">
         <MapPinIcon className="h-5 w-5 text-zinc-300" />
         <span>Warsaw, Poland</span>
-        <PolandFlag />
+        <PolandFlag className="h-4 w-6" />
       </div>
     </header>
   )
