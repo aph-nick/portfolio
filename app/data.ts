@@ -29,20 +29,20 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Aphelium',
     description:
-      'Advanced components and templates to craft beautiful websites.',
-    link: 'https://pro.motion-primitives.com/',
+      'Revolutional community server for CS:GO, place where I first learned to develop and manage bigger Data.',
+    link: 'https://steamcommunity.com/groups/ApheliumCommunity',
     image:
-      '/project1test.jpg',
+      '/aphelium.jpg',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
-    link: 'https://motion-primitives.com/',
+    name: 'SmartHome',
+    description: 'School Project consisting of a CLI Java application, that simulates a SmartHouse management system.',
+    link: 'https://github.com/aph-nick/SmartHome',
     image:
-      '/project2test.jpg',
+      'smarthome.jpg',
     id: 'project2',
   },
 ]
@@ -77,11 +77,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://github.com/aph-nick',
   },
 ];
 
