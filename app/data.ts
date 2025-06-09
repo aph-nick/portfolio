@@ -88,6 +88,14 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     link: 'https://pja.edu.pl',
     id: 'work1',
   },
+  {
+    company: 'Harvard CS50X',
+    title: 'Complete Course with a Certificate (C, Python, SQL, HTML + CSS',
+    start: '2024',
+    end: '2024',
+    link: 'https://cs50.harvard.edu/x/2025/',
+    id: 'work2',
+  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
