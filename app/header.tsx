@@ -67,12 +67,7 @@ function ThemeSwitch() {
 
 export function Header() {
   return (
-    <header className="relative mb-8 flex flex-col items-start">
-      {/* Theme switch on top right */}
-      <div className="absolute top-0 right-0 z-50">
-        <ThemeSwitch />
-      </div>
-
+    <header className="mb-8 flex items-start justify-between">
       <div>
         <Link href="/" className="font-medium text-3xl text-black dark:text-white">
           Wojciech Kucharski
@@ -88,10 +83,13 @@ export function Header() {
         </TextEffect>
       </div>
 
-      <div className="mt-2 flex items-center space-x-2 text-zinc-700 dark:text-zinc-400 text-sm font-medium">
-        <MapPinIcon className="h-5 w-5 text-zinc-300" />
-        <span>Warsaw, Poland</span>
-        <PolandFlag className="h-4 w-6" />
+      <div className="flex flex-col items-end space-y-2">
+        <ThemeSwitch />
+        <div className="flex items-center space-x-2 text-zinc-700 dark:text-zinc-400 text-sm font-medium">
+          <MapPinIcon className="h-5 w-5 text-zinc-300" />
+          <span>Warsaw, Poland</span>
+          <PolandFlag className="h-4 w-6" />
+        </div>
       </div>
     </header>
   )
