@@ -46,28 +46,36 @@ export const PROJECTS: Project[] = [
     id: 'project2',
   },
   {
+    name: 'Web Portfolio',
+    description: 'Simple and clean web portfolio made for private purposes. Built in TypeScript, with React.',
+    link: 'https://github.com/aph-nick/portfolio',
+    image:
+      '/portfolio.jpg',
+    id: 'project3',
+  },
+  {
     name: 'SimpleGraphMaker',
     description: 'Simple Java application that draws Mathematical graphs - made as a CS50x project',
     link: 'https://github.com/aph-nick/SmartGraphMaker',
     image:
       '/graph.jpg',
-    id: 'project3',
+    id: 'project4',
   },
   {
     name: 'SimpleMail',
     description: 'School Project consisting of a Java application, with Swing components that simulates an email client. Under construction. ',
-    link: 'https://github.com/aph-nick/SmartHome',
+    link: 'https://github.com/aph-nick/',
     image:
       '/simplemail.jpg',
-    id: 'project4',
+    id: 'project5',
   },
   {
     name: 'WorkoutTracker',
-    description: 'A Java build WorkoutTracking Application, under construction',
-    link: 'https://github.com/aph-nick/SmartHome',
+    description: 'A Java build WorkoutTracking Application. Under construction',
+    link: 'https://github.com/aph-nick/',
     image:
       '/workouttracker.jpg',
-    id: 'project5',
+    id: 'project6',
   },
 ]
 
