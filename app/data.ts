@@ -96,6 +96,14 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     link: 'https://cs50.harvard.edu/x/2025/',
     id: 'work2',
   },
+  {
+    company: 'Logistics / Container Freight',
+    title: 'Cargo Importer',
+    start: '2024',
+    end: 'Present',
+    link: '',
+    id: 'work3',
+  },
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
