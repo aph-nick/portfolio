@@ -100,7 +100,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     company: 'Logistics / Container Freight',
     title: 'Cargo Importer',
     start: '2024',
-    end: 'Present',
+    end: '2025',
     link: '',
     id: 'work3',
   },
