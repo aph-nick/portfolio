@@ -67,24 +67,32 @@ function ThemeSwitch() {
 
 export function Header() {
   return (
-    <header className="mb-8 flex items-start justify-between">
-      <div>
-        <Link href="/" className="font-medium text-3xl text-black dark:text-white">
-          Wojciech Kucharski
-        </Link>
-        <TextEffect
-          as="p"
-          preset="fade"
-          per="char"
-          className="text-zinc-600 dark:text-zinc-500"
-          delay={0.5}
-        >
-          Junior Java Developer
-        </TextEffect>
+    <header className="mb-8">
+      {/* Góra: ThemeSwitch */}
+      <div className="flex justify-end mb-2">
+        <ThemeSwitch />
       </div>
 
-      <div className="flex flex-col items-end space-y-2">
-        <ThemeSwitch />
+      {/* Linia oddzielająca */}
+      <hr className="border-zinc-200 dark:border-zinc-700 mb-4" />
+
+      {/* Główna zawartość */}
+      <div className="flex items-start justify-between">
+        <div>
+          <Link href="/" className="font-medium text-3xl text-black dark:text-white">
+            Wojciech Kucharski
+          </Link>
+          <TextEffect
+            as="p"
+            preset="fade"
+            per="char"
+            className="text-zinc-600 dark:text-zinc-500"
+            delay={0.5}
+          >
+            Junior Java Developer
+          </TextEffect>
+        </div>
+
         <div className="flex items-center space-x-2 text-zinc-700 dark:text-zinc-400 text-sm font-medium">
           <MapPinIcon className="h-5 w-5 text-zinc-300" />
           <span>Warsaw, Poland</span>
