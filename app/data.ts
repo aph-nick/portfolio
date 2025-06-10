@@ -64,7 +64,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'SimpleMail',
     description: 'School Project consisting of a Java application, with Swing components that simulates an email client. Under construction. ',
-    link: 'https://github.com/aph-nick/',
+    link: 'https://github.com/aph-nick/SimpleMail',
     image:
       '/simplemail.jpg',
     id: 'project5',
