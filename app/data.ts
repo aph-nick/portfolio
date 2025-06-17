@@ -39,10 +39,10 @@ export const PROJECTS: Project[] = [
   },
   {
     name: 'SmartHome',
-    description: 'School Project consisting of a CLI Java application, that simulates a SmartHouse management system.',
+    description: 'School Project consisting of a Swing Java application, that simulates a SmartHouse management system.',
     link: 'https://github.com/aph-nick/SmartHomeManagementSwingUI',
     image:
-      '/smarthome.jpg',
+      '/gui.jpg',
     id: 'project2',
   },
   {
