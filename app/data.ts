@@ -40,7 +40,7 @@ export const PROJECTS: Project[] = [
   {
     name: 'SmartHome',
     description: 'School Project consisting of a CLI Java application, that simulates a SmartHouse management system.',
-    link: 'https://github.com/aph-nick/SmartHome',
+    link: 'https://github.com/aph-nick/SmartHomeManagementSwingUI',
     image:
       '/smarthome.jpg',
     id: 'project2',
@@ -67,6 +67,7 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/aph-nick/SimpleMail',
     image:
       '/simplemail.jpg',
+
     id: 'project5',
   },
   {
