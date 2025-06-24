@@ -113,8 +113,8 @@ export const SOCIAL_LINKS: SocialLink[] = [
     link: 'https://github.com/aph-nick',
   },
   {
-    label: 'LinkedIN',
-    link: 'www.linkedin.com/in/w-kucharski',
+    label: 'LinkedIn',
+    link: 'https://linkedin.com/in/w-kucharski',
   },
 ];
 
