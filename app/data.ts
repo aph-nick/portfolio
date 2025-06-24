@@ -112,6 +112,10 @@ export const SOCIAL_LINKS: SocialLink[] = [
     label: 'Github',
     link: 'https://github.com/aph-nick',
   },
+  {
+    label: 'LinkedIN',
+    link: 'www.linkedin.com/in/w-kucharski',
+  },
 ];
 
 export const EMAIL = 'w@kucharski.ovh'
