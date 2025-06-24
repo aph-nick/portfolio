@@ -54,14 +54,6 @@ export const PROJECTS: Project[] = [
     id: 'project3',
   },
   {
-    name: 'SimpleGraphMaker',
-    description: 'Simple Java application that draws Mathematical graphs - made as a CS50x project',
-    link: 'https://github.com/aph-nick/SmartGraphMaker',
-    image:
-      '/graph.jpg',
-    id: 'project4',
-  },
-  {
     name: 'SimpleMail',
     description: 'School Project consisting of a Java application, with Swing components that simulates an email client. Under construction. ',
     link: 'https://github.com/aph-nick/SimpleMail',
@@ -69,6 +61,14 @@ export const PROJECTS: Project[] = [
       '/simplemail.jpg',
 
     id: 'project5',
+  },
+  {
+    name: 'SimpleGraphMaker',
+    description: 'Simple Java application that draws Mathematical graphs - made as a CS50x project',
+    link: 'https://github.com/aph-nick/SmartGraphMaker',
+    image:
+      '/graph.jpg',
+    id: 'project4',
   },
   {
     name: 'WorkoutTracker',
