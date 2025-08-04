@@ -29,10 +29,10 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Aphelium',
+    name: 'Noted.App',
     description:
-      'Revolutional community server for CS:GO. Made with custom and complete SourceCode plugins.',
-    link: 'https://steamcommunity.com/groups/ApheliumCommunity',
+      'Clean Architecture Mobile app built with JetPack Compose that lets the user manages his personal Notes',
+    link: 'https://github.com/aph-nick/Noted.app',
     image:
       '/aphelium.jpg',
     id: 'project1',
@@ -63,19 +63,28 @@ export const PROJECTS: Project[] = [
     id: 'project3',
   },
   {
+    name: 'Weather.now',
+    description: 'Clean Architecture, Jetpack Compose Weather app. Under Construction...',
+    link: '',
+    image:
+      '/portfolio.jpg',
+    id: 'project4',
+  },
+  {
     name: 'SimpleGraphMaker',
     description: 'Simple Java application that draws Mathematical graphs - made as a CS50x project',
     link: 'https://github.com/aph-nick/SmartGraphMaker',
     image:
       '/graph.jpg',
-    id: 'project4',
+    id: 'project5',
   },
   {
-    name: 'WorkoutTracker',
-    description: 'A Java build WorkoutTracking Application. Under construction',
-    link: 'https://github.com/aph-nick/',
+    name: 'Aphelium',
+    description:
+      'Revolutional community server for CS:GO. Made with custom and complete SourceCode plugins.',
+    link: 'https://steamcommunity.com/groups/ApheliumCommunity',
     image:
-      '/workouttracker.jpg',
+      '/aphelium.jpg',
     id: 'project6',
   },
 ]
