@@ -150,10 +150,12 @@ export default function Personal() {
             Languages & Tools I use
           </h3>
           <ul className="list-disc list-inside text-zinc-600 dark:text-zinc-400">
-            <li>Java</li>
-            <li>Kotlin</li>
+            <li>Java / Kotlin</li>
+            <li>Spring Boot</li>
+            <li>Kafka</li>
+            <li>AWS</li>
+            <li>Docker</li>
             <li>Jetpack Compose</li>
-            <li>Basics of: C, Python, JS/TS, SQL</li>
           </ul>
         </div>
       </motion.section>

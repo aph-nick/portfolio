@@ -29,13 +29,22 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
+    name: 'Patient Management System',
+    description:
+      'Java Backend Patient Management System with Microservices',
+    link: 'https://github.com/aph-nick/patient-service',
+    image:
+      '/patientservice.jpg',
+    id: 'project1',
+  },
+  {
     name: 'Noted.App',
     description:
       'Clean Architecture Mobile app built with JetPack Compose that lets the user manages his personal Notes',
     link: 'https://github.com/aph-nick/Noted.app',
     image:
       '/noted.jpg',
-    id: 'project1',
+    id: 'project2',
   },
   {
     name: 'SmartHome',
@@ -43,7 +52,7 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/aph-nick/SmartHomeManagementSwingUI',
     image:
       '/gui.jpg',
-    id: 'project2',
+    id: 'project3',
   },
   {
     name: 'SimpleMail',
@@ -52,7 +61,7 @@ export const PROJECTS: Project[] = [
     image:
       '/simplemail.jpg',
 
-    id: 'project5',
+    id: 'project4',
   },
   {
     name: 'Web Portfolio',
@@ -60,7 +69,7 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/aph-nick/portfolio',
     image:
       '/portfolio.jpg',
-    id: 'project3',
+    id: 'project5',
   },
   {
     name: 'Weather.now',
@@ -68,7 +77,7 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/aph-nick/Weather.now',
     image:
       '/weather.jpg',
-    id: 'project4',
+    id: 'project6',
   },
   {
     name: 'SimpleGraphMaker',
@@ -76,7 +85,7 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/aph-nick/SmartGraphMaker',
     image:
       '/graph.jpg',
-    id: 'project5',
+    id: 'project7',
   },
   {
     name: 'Aphelium',
@@ -85,7 +94,7 @@ export const PROJECTS: Project[] = [
     link: 'https://steamcommunity.com/groups/ApheliumCommunity',
     image:
       '/aphelium.jpg',
-    id: 'project6',
+    id: 'project8',
   },
 ]
 
