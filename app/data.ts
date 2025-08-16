@@ -32,7 +32,7 @@ export const PROJECTS: Project[] = [
     name: 'Patient Management System',
     description:
       'Java Backend Patient Management System with Microservices',
-    link: 'https://github.com/aph-nick/patient-service',
+    link: 'https://github.com/aph-nick/patient-management',
     image:
       '/patientservice.jpg',
     id: 'project1',
