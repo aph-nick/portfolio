@@ -89,7 +89,7 @@ export function Header() {
             className="text-zinc-600 dark:text-zinc-500"
             delay={0.5}
           >
-            Junior Java / Kotlin Developer
+            Junior Developer
           </TextEffect>
         </div>
 
