@@ -140,8 +140,7 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            I'm an aspiring developer building real projects to break into the tech world.
-            Eager to join a team where I can grow, learn, and make an impact.
+            I'm an aspiring developer, who's eager to join a team where I can grow, learn, and make an impact.
           </p>
         </div>
 
@@ -152,9 +151,9 @@ export default function Personal() {
           <ul className="list-disc list-inside text-zinc-600 dark:text-zinc-400">
             <li>Java / Kotlin</li>
             <li>Spring Boot</li>
+            <li>Docker</li>
             <li>Kafka</li>
             <li>AWS</li>
-            <li>Docker</li>
             <li>Jetpack Compose</li>
           </ul>
         </div>
