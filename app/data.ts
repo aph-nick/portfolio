@@ -29,6 +29,15 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
+    name: 'Lifting-Tracker',
+    description:
+      'Java + Spring based Web Application made for advanced lifters who value clarity and freedom in their workout logger.',
+    link: 'https://github.com/aph-nick/lifting-tracker',
+    image:
+      '/lifting-tracker.png',
+    id: 'project0',
+  },
+  {
     name: 'Patient Management System',
     description:
       'Java Backend Patient Management System with Microservices',
