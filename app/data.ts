@@ -47,12 +47,11 @@ export const PROJECTS: Project[] = [
     id: 'project1',
   },
   {
-    name: 'Noted.App',
-    description:
-      'Clean Architecture Mobile app built with JetPack Compose that lets the user manages his personal Notes',
-    link: 'https://github.com/aph-nick/Noted.app',
+    name: 'Weather.now',
+    description: 'Clean Architecture, Jetpack Compose Weather app. Under Construction...',
+    link: 'https://github.com/aph-nick/Weather.now',
     image:
-      '/noted.jpg',
+      '/weather.jpg',
     id: 'project2',
   },
   {
@@ -81,11 +80,12 @@ export const PROJECTS: Project[] = [
     id: 'project5',
   },
   {
-    name: 'Weather.now',
-    description: 'Clean Architecture, Jetpack Compose Weather app. Under Construction...',
-    link: 'https://github.com/aph-nick/Weather.now',
+    name: 'Noted.App',
+    description:
+      'Clean Architecture Mobile app built with JetPack Compose that lets the user manages his personal Notes',
+    link: 'https://github.com/aph-nick/Noted.app',
     image:
-      '/weather.jpg',
+      '/noted.jpg',
     id: 'project6',
   },
   {
