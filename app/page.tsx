@@ -150,7 +150,7 @@ export default function Personal() {
           </h3>
           <ul className="list-disc list-inside text-zinc-600 dark:text-zinc-400">
             <li>Java</li>
-            <li>Spring Boot</li>
+            <li>Spring</li>
             <li>Docker</li>
             <li>Kafka</li>
             <li>AWS</li>
